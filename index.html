@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div id="title">
+		<h3>Survey Form</h3>
+	</div>
+
+	<p id="description">Let us know how we can improve freeCodeCamp</p>
+	
+	<form id="survey-form">
+		<div class="row">
+			<div class="labels">
+				<label id="name-label" for="name">* Name:</label>
+			</div>
+			<div class="answers">
+				<input type="text" placeholder="Enter your name" required>
+			</div>
+		</div>
+		<div class="row">
+			<div class="labels">
+				<label id="email-label" for="email">* Email:</label>
+			</div>
+			<div class="answers">
+				<input type="email" placeholder="Enter your email" required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="labels">
+				<label id="number-label" for="age">* Age:</label>
+			</div>
+			<div class="answers">
+				<input type="number" placeholder="Age" required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="labels">
+				<label for="Position">Which option best describes your current role?</label>
+			</div>
+			<div class="answers">
+				<select name="current-pos" class="dropdown">
+					<option disabled value>Select an option</option>
+					<option value="Student">Student</option>
+					<option value="Full Time Job">Full Time Job</option>
+					<option value="Full Time Learner">Full Time Learner</option>
+					<option value="Prefer Not To Say">Prefer Not To Say</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+		</div>
+		
+
+		<div class="row">
+			<div class="labels">
+				<label id="radio-button"for="rating">* How likely is it that you would recommend freeCodeCamp to a friend?</label>
+			</div>
+			<div class="answers">
+				<ul>
+					<li class="radio">
+						<label>Definitely
+						<input  name ="radio-buttons"type="radio" class="rating" value="1">
+						</label>
+					</li>
+					<li class="radio">
+						<label>Maybe
+						<input  name ="radio-buttons"type="radio" class="rating" value="2">
+						</label>
+					</li>
+					<li class="radio">
+						<label>Not Sure
+						<input  name ="radio-buttons"type="radio" class="rating" value="3">
+						</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="labels">
+				<label for="Position">What do you like most in FCC:</label>
+			</div>
+			<div class="answers">
+				<select name="option" class="dropdown">
+					<option disabled value selected>Select an option</option>
+					<option value="Challenged">Student</option>
+					<option value="Projects">Full Time Job</option>
+					<option value="Community">Full Time Learner</option>
+					<option value="Open Source">Prefer Not To Say</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="labels">
+				<label for="check-items">Things that should be improved in the future (Check all that apply):</label>
+			</div>
+			<div class="answers">
+				<ul>
+					<label>
+						<input type="checkbox" name="prefer" class="rating" value="Front-end-Projects">
+					</label>
+				</ul>
+			</div>
+		</div>
+
+	</form>
+
+
+
+</body>
+</html>

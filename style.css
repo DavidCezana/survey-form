@@ -1,0 +1,43 @@
+html, body {
+	text-align: center;
+	min-width: 320px;
+	background: #EF6767;
+}
+
+h1{
+	display: block;
+}
+
+#form-outer{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #C3F6EB;
+	padding: 20px 5px;
+	max-width: 900px;
+	border-radius: 4px;
+}
+
+.labels {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+	margin: 10px;
+
+}
+
+.answers {
+	display: inline-block;
+	text-align: left;
+	width: 48%;
+	vertical-align: middle;
+}
+
+.input-field{
+	margin-top: 12px;
+}
+
+.dropdown{
+	margin-top:15px;
+}

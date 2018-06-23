@@ -99,16 +99,79 @@
 
 		<div class="row">
 			<div class="labels">
-				<label for="check-items">Things that should be improved in the future (Check all that apply):</label>
+				<label for="check-items">Things that should be improved in the future <br> (Check all that apply):
+				</label>
 			</div>
 			<div class="answers">
-				<ul>
-					<label>
-						<input type="checkbox" name="prefer" class="rating" value="Front-end-Projects">
-					</label>
+				<ul id="preferences">
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Front-end-Projects">Front-end Projects
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Back-end-Projects">Back-end Projects
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Data Visualisation">Data Visualisation
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Challenges">Challenges
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Open Source Community">Open Source Community
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Gitter Help Rooms">Gitter Help Rooms
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Videos">Videos
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="City Meetups">City Meetups
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Wiki">Wiki
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Forum">Forum
+						</label>
+					</li>
+					<li class="checkbox">
+						<label>
+							<input type="checkbox" name="prefer" class="rating" value="Additional Courses">Additional Courses
+						</label>
+					</li>
 				</ul>
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="labels">
+				<label for="comments">Any Comments or Suggestions?</label>
+			</div>
+			<div class="answers">
+				<textarea name="comment" id="comments" placeholder="Enter your comment here..."></textarea>
+			</div>
+		</div>
+		<button id="submit" type="submit">Submit</button>
 
 	</form>
 
